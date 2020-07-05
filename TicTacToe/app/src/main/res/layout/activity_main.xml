@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tableBackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="385dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="3pt"
+        android:layout_marginTop="3pt"
+        android:layout_marginRight="3pt"
+        android:background="@color/tableBackground"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/buttonDefaultColor"
+            android:onClick="buttonClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/buttonDefaultColor"
+            android:enabled="true"
+            android:onClick="buttonClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/buttonDefaultColor"
+            android:enabled="true"
+            android:onClick="buttonClick"
+            tools:ignore="ButtonStyle" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="3pt"
+        android:layout_marginTop="3pt"
+        android:layout_marginRight="3pt"
+        android:background="@color/tableBackground"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/buttonDefaultColor"
+            android:enabled="true"
+            android:onClick="buttonClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/buttonDefaultColor"
+            android:enabled="true"
+            android:onClick="buttonClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/buttonDefaultColor"
+            android:enabled="true"
+            android:onClick="buttonClick"
+            tools:ignore="ButtonStyle" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="3pt"
+        android:layout_marginTop="3pt"
+        android:layout_marginRight="3pt"
+        android:background="@color/tableBackground"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/buttonDefaultColor"
+            android:enabled="true"
+            android:onClick="buttonClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/buttonDefaultColor"
+            android:onClick="buttonClick"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="3pt"
+            android:layout_marginLeft="3pt"
+            android:background="@color/buttonDefaultColor"
+            android:enabled="true"
+            android:onClick="buttonClick"
+            tools:ignore="ButtonStyle" />
+    </TableRow>
+
+</TableLayout>
